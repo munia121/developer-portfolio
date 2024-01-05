@@ -4,9 +4,20 @@ body{
     font-family: 'Work Sans', sans-serif;
 }
 
+/* header part */
+
+.header{
+    background-color:#FFF8F3 ;
+}
+
+
+
 /* nav related styles */
 nav{
     display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin: 0 200px;
 }
 .nav-title{
     color:black;
@@ -27,10 +38,9 @@ nav li{
 
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-}
+
+
+
 
 .btn-primary{
     color: white;
@@ -45,4 +55,21 @@ nav{
 nav a{
     text-decoration: none;
     color: #474747;
+}
+
+/*****
+ bannar part
+***** */
+
+.bannar{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+}
+
+.bannar-greeting{
+
+}
+.profile-pic{
+    width: 500px;
 }
