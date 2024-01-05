@@ -1,0 +1,48 @@
+/* coomon sheared styles */
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
+}
+
+/* nav related styles */
+nav{
+    display: flex;
+}
+.nav-title{
+    color:black;
+    font-size: 45px;
+    font-weight: 800;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+nav > ul {
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn-primary{
+    color: white;
+    background-color: #FD6E0A;
+    border-radius: 5px;
+    border: 0;
+    font-weight: 800px;
+    font-size: 20px;
+    padding: 15px 35px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #474747;
+}
