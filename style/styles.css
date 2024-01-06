@@ -107,8 +107,12 @@ nav a{
 
 /* main section */
 main{
-    max-width:1400px ;
+    max-width:1200px ;
     margin: 0 auto;
+}
+
+main section{
+    margin-top: 130px;
 }
 
 /* about section  style*/
@@ -134,4 +138,48 @@ main{
 .skils-container{
     margin-top: 100px;
     display: flex;
+    gap: 24px;
+}
+
+
+.skill{
+    padding: 30px;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0px 6px 50px 0px rgba(0,0,0,0.06);
+}
+.skill-description{
+    color: #757575;
+}
+
+/* resume section styles */
+.resume-column-title{
+    color: #474747;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.resume-container{
+    display: flex;
+    gap: 50px;
+}
+
+.resume-item-institut{
+    margin-bottom: 20px;
+    margin-top: 0;
+}
+
+.resume-item-descripotion , .resume-item-institut{
+    color: #757575;
+}
+
+.resume-item-titel{
+    margin-bottom: 10px;
+    font-size:25px ;
+    font-weight: 700;
+    color: #474747;
+}
+
+.resume-container hr{
+
 }
