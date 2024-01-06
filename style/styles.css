@@ -216,8 +216,14 @@ footer{
 }
 
 .btn-primary{
-    margin-left: 200px;
+    background-color: #FD6E0A;
 }
 .social-link a{
     margin-right: 25px;
+}
+
+.contact input[type="submit"]{
+    background-color: #FD6E0A;
+    color: #fff;
+    font-size: 20px;
 }
